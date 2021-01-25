@@ -1,0 +1,152 @@
+body, p {
+	margin:0;
+	padding: 0;
+}
+
+.testimony-wrap{
+	width: 100%;
+	height: 697px;
+	background-color: #57CED3;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.testimony-slider {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.testimony-wrap h1 {
+	font-family: "Roboto", Sans-serif;
+	color: #ffffff;
+	font-size: 34px;
+    font-weight: 300;
+	padding: 99px 0 36px 0;
+	margin: 0;
+    line-height: 1
+}
+
+.testimony {
+	background-color: #ffffff;
+	box-sizing: border-box;
+	cursor: grab;
+	padding: 43px 20px 15px 20px;
+	display: block;
+	margin-right: 22px;
+}
+
+.test-body {
+	text-align: center;
+	font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2em;
+	color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+	box-sizing: border-box;
+	padding: 0 0 27px;
+	margin: 0;
+}
+
+.test-name {
+	font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: normal;
+	color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 0 0 5px;
+	margin: 0;
+}
+
+.test-ct-state {
+	color: #fd908b;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 0.9em;
+	font-family: "Roboto Slab", Sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.slick-track {
+	height: 458px;
+}
+
+.slick-list.draggable {
+	max-width: 100%;
+	width: 920px;
+	margin: 0 0 0 10.6%;
+}
+
+/* Arrow */
+.slick-prev:before, .slick-next:before {
+	font-family: "Font Awesome 5 Free" !important;
+    font-size: 30px !important;
+    line-height: 1;
+
+    opacity: 1 !important;
+    color: #727272 !important;
+}
+
+.slick-prev
+{
+    left: 9px!important;
+}
+[dir='rtl'] .slick-prev
+{
+    right: 9px!important;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: "\f053" !important;
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: "\f053" !important;
+}
+
+.slick-next
+{
+    right: 9px!important;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: 9px!important;
+}
+.slick-next:before
+{
+    content: "\f054" !important;
+}
+[dir='rtl'] .slick-next:before
+{
+    content: "\f054" !important;
+}
+
+/* Dots */
+.slick-dots { margin: 0 0 0 -8px !important; }
+.slick-dots li
+{
+    width: 5px !important;
+    height: 5px !important;
+}
+.slick-dots li button
+{
+    padding: 5px 7px !important;
+}
+.slick-dots li button:before
+{
+    font-size: 18px !important;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: 1 !important;
+    color: white !important;
+}
+
